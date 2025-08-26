@@ -8,3 +8,9 @@ A full-stack Django-based Pharmaceutical Management System with role-based authe
 - Bill generation and PDF download
 - Bill history tracking
 - Clean UI with templates and static resources
+
+# Tech Stack
+- Backend: Django (Python)
+- Database: SQLite (default, can be changed)
+- Frontend: HTML, CSS (Django Templates)
+- Other: ReportLab (for PDF generation)
