@@ -14,3 +14,7 @@ A full-stack Django-based Pharmaceutical Management System with role-based authe
 - Database: SQLite 
 - Frontend: HTML, CSS 
 - Other: ReportLab (for PDF generation)
+
+# Setup Instructions
+git clone <https://github.com/tarung-15/Pharmaceutical-Management-System>
+cd medical_project
