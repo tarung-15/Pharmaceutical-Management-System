@@ -35,3 +35,9 @@ python manage.py createsuperuser
 python manage.py runserver
 ```
 ### Open http://127.0.0.1:8000/ in your browser.
+
+## Contributing
+- Fork the repo
+- Create a new branch (feature-xyz)
+- Commit changes
+- Push branch and create a Pull Request
