@@ -10,7 +10,7 @@ A full-stack Django-based Pharmaceutical Management System with role-based authe
 - Clean UI with templates and static resources
 
 # Tech Stack
-- Backend: Django (Python)
-- Database: SQLite (default, can be changed)
-- Frontend: HTML, CSS (Django Templates)
+- Backend: Django 
+- Database: SQLite 
+- Frontend: HTML, CSS 
 - Other: ReportLab (for PDF generation)
