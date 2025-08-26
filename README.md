@@ -36,8 +36,9 @@ python manage.py runserver
 ```
 ### Open http://127.0.0.1:8000/ in your browser.
 
-## Contributing
-- Fork the repo
-- Create a new branch (feature-xyz)
-- Commit changes
-- Push branch and create a Pull Request
+# Contributing
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Push to the branch
+5. Create a Pull Request
