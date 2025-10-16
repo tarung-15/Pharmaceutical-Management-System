@@ -34,6 +34,12 @@ python manage.py migrate
 python manage.py createsuperuser
 python manage.py runserver
 ```
+
+### Clear All Data from the Database
+If there is any existing data, you can delete it by running:
+```
+python manage.py flush
+```
 ### Open http://127.0.0.1:8000/ in your browser.
 
 ## Contributing
