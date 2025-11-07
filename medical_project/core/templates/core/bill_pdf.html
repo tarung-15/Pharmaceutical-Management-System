@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Bill PDF</title>
+</head>
+<body>
+    <h1>Bill for {{ bill.patient_name }}</h1>
+    <p>Date: {{ bill.date }}</p>
+    <p>Amount Paid: ₹{{ bill.amount_paid }}</p>
+
+    <h2>Medicines</h2>
+    <ul>
+        {% for item in bill.billitem_set.all %}
+            <li>{{ item.medicine.name }} — Quantity: {{ item.quantity }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
